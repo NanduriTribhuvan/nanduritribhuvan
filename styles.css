@@ -86,3 +86,23 @@ header {
     font-weight: 500;
     line-height: normal;
 }
+
+.svg-icon {
+    display: inline-block;
+    margin-left: 10px; /* Adjust the spacing between SVG icons */
+    color: white;
+}
+
+.idk3 {
+    font-family: Lexend;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    background: linear-gradient(60deg,#6EEEFF,#30393a, #a9adad, #fafafa, #00e1ff, #aef6ff, #4f5152);
+    background-size: 300% 300%;
+    animation: animated-gradient 5s ease infinite;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    text-decoration-line: underline;
+}
