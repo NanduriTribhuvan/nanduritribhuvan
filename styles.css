@@ -59,7 +59,7 @@ header {
 }
 
 .okkk {
-    background: linear-gradient(60deg,#f79533,#f37055,#ef4e7b,#a166ab,#5073b8,#1098ad,#07b39b,#6fba82,#b1c94e,#fde74c,#ff7f51,#ff4e50,#ff6b6b,#c0c0aa,#8a9a5b,#6a7d5a);
+    background: linear-gradient(60deg,#6EEEFF,#30393a, #a9adad, #fafafa, #00e1ff, #aef6ff, #4f5152);
     background-size: 300% 300%;
     animation: animated-gradient 5s ease infinite;
     background-clip: text;
