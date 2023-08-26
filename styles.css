@@ -46,8 +46,8 @@ header {
 }
 
 .profile-image {
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
     border-radius: 50%;
     overflow: hidden;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
@@ -111,30 +111,76 @@ header {
 /* Existing styles */
 .rectangle-container {
     display: flex;
-    justify-content: space-between;
+    justify-content: center; /* Center the box horizontally */
+    align-items: center; /* Center the box vertically */
+    height: 60vh; /* Use viewport height for the container */
 }
 
-/* Add a new CSS rule for the boxes */
 .box {
     width: 290px;
     height: 450px;
     border-radius: 10px;
-    border: 1px solid transparent; /* Set initial border color to transparent */
+    border: 1px solid transparent;
     background: #2D2A2A;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-    margin: 20px;
-    position: relative; /* Required for pseudo-element */
+    margin: 15px;
+    position: relative;
+    text-align: center; /* Center the content horizontally */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.circle {
+    width: 239px;
+    height: 239px;
+    border-radius: 239px;
+    border: 1px solid #6EEEFF;
+    background: url(./ok.png) center / contain no-repeat, lightgray;
+    position: absolute;
+    flex-shrink: 0;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%); /* Center horizontally */
+}
+
+.Iacos {
+    color: #FFF;
+    font-family: Lexend;
+    font-size: 43px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 101px; /* Add some space between the circle and the text */
+    position: absolute;
+    bottom: 0; /* Position the text at the bottom of the box */
+    left: 50%; /* Center the text horizontally */
+    transform: translateX(-50%); /* Center horizontally */
+}
+
+.Iacoos {
+    color: #FFF;
+    font-family: Lexend;
+    font-size: 31px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 3px; /* Add some space between the circle and the text */
+    position: absolute;
+    bottom: 0; /* Position the text at the bottom of the box */
+    left: 50%; /* Center the text horizontally */
+    transform: translateX(-50%); /* Center horizontally */
 }
 
 .box::before {
-    content: ''; /* Create a pseudo-element for the animated border */
+    content: '';
     position: absolute;
     top: -2px; /* Adjust to align with the actual border */
     left: -2px; /* Adjust to align with the actual border */
     width: calc(100% + 4px); /* Adjust for border expansion */
     height: calc(100% + 4px); /* Adjust for border expansion */
     border-radius: 10px;
-    border: 1px solid transparent; /* Initial border color for the pseudo-element */
+    border: 1px solid transparent;
     animation: animated-border 5s ease infinite;
 }
 
