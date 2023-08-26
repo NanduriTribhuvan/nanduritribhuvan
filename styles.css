@@ -14,10 +14,11 @@ body {
     }
 }
 
+
 .content-box {
     background-image: linear-gradient(to bottom right, #2D2A2A, #463e3e, #2D2A2A, #463e3e);
     margin: 20px auto;
-    max-width: 1000px;
+    max-width: 1200px;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
@@ -105,4 +106,62 @@ header {
     -webkit-background-clip: text;
     color: transparent;
     text-decoration-line: underline;
+}
+
+/* Existing styles */
+.rectangle-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Add a new CSS rule for the boxes */
+.box {
+    width: 290px;
+    height: 450px;
+    border-radius: 10px;
+    border: 1px solid transparent; /* Set initial border color to transparent */
+    background: #2D2A2A;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    margin: 20px;
+    position: relative; /* Required for pseudo-element */
+}
+
+.box::before {
+    content: ''; /* Create a pseudo-element for the animated border */
+    position: absolute;
+    top: -2px; /* Adjust to align with the actual border */
+    left: -2px; /* Adjust to align with the actual border */
+    width: calc(100% + 4px); /* Adjust for border expansion */
+    height: calc(100% + 4px); /* Adjust for border expansion */
+    border-radius: 10px;
+    border: 1px solid transparent; /* Initial border color for the pseudo-element */
+    animation: animated-border 5s ease infinite;
+}
+
+/* Keyframes for animated border colors */
+@keyframes animated-border {
+    0%, 100% {
+        border-color: #6EEEFF; /* Start and end with transparent color */
+    }
+    25% {
+        border-color: #ebf5f7; /* Change to the desired color */
+    }
+    50% {
+        border-color: #5a969c; /* Change to the desired color */
+    }
+    75% {
+        border-color: #7bb8b8; /* Change to the desired color */
+    }
+}
+
+/* Media query for smaller screens (phones) */
+@media (max-width: 767px) {
+    .rectangle-container {
+        display: block; /* Stack boxes vertically */
+    }
+
+    .box {
+        display: block; /* Reset the display for each box */
+        margin: 20px auto; /* Center align boxes horizontally */
+    }
 }
