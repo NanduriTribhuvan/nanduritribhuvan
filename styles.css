@@ -15,7 +15,7 @@ body {
 }
 
 
-.content-box {
+.big-box {
     background-image: linear-gradient(to bottom right, #2D2A2A, #463e3e, #2D2A2A, #463e3e);
     margin: 20px auto;
     max-width: 1200px;
@@ -108,14 +108,6 @@ header {
     text-decoration-line: underline;
 }
 
-/* Existing styles */
-.rectangle-container {
-    display: flex;
-    justify-content: center; /* Center the box horizontally */
-    align-items: center; /* Center the box vertically */
-    height: 60vh; /* Use viewport height for the container */
-}
-
 .box {
     width: 290px;
     height: 450px;
@@ -172,6 +164,41 @@ header {
     transform: translateX(-50%); /* Center horizontally */
 }
 
+.iok {
+    color: #FFF;
+    font-family: Lexend;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.center-container {
+    text-align: center; /* Center the content horizontally */
+}
+
+.reach-me {
+    display: inline-block;
+    padding: 6px 12px;
+    font-size: 14px;
+    font-family: 'Lexend', sans-serif;
+    text-decoration: none;
+    color: #333;
+    background-color: #4FA3FF;
+    border: 2px solid #4FA3FF;
+    border-radius: 4px;
+    transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.reach-me:hover {
+    background-color: #1E293B;
+    color: #4FA3FF;
+    border-color: #1E293B;
+}
+
+
+
 .box::before {
     content: '';
     position: absolute;
@@ -183,6 +210,7 @@ header {
     border: 1px solid transparent;
     animation: animated-border 5s ease infinite;
 }
+
 
 /* Keyframes for animated border colors */
 @keyframes animated-border {
