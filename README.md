@@ -1,5 +1,5 @@
 <h1 align="center">👋 Hi there! I'm Nanduri Tribhuvan.</h1>
-<h4 align="center">I'm a Backend Developer who enjoys building and exploring new things. I love helping people and contributing to open source projects. Meeting new people and making friends is something I truly enjoy, and I'm always eager to try new stacks and learn new things. Over the years, I have coded in various languages such as TypeScript, JavaScript, Python, Nodejs and many more. I am a self-taught developer and a fast learner. Furthermore, I have knowledge in AI/ML, ethical hacking, Malware dev, and pentesting.</h4>
+<h4 align="center">I'm a Backend Developer who enjoys building and exploring new things. I love helping people and contributing to open source projects. Meeting new people and making friends is something I truly enjoy, and I'm always eager to try new stacks and learn new things. Over the years, I have coded in various languages such as TypeScript, JavaScript, Python, Nodejs and many more. I am a self-taught developer and a fast learner. Furthermore, I have knowledge in AI/ML, ethical hacking, and pentesting.</h4>
 
 ## ✍ Key Notes
 
