@@ -1,241 +1,145 @@
+/* Modern Reset & Variables */
+:root {
+    --bg-dark: #0a0a0a;
+    --accent-cyan: #6eeeff;
+    --glass-bg: rgba(255, 255, 255, 0.03);
+    --glass-border: rgba(255, 255, 255, 0.1);
+    --font-main: 'Lexend', sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+    cursor: default;
+}
+
 body {
-    font-family: Arial, sans-serif;
+    font-family: var(--font-main);
     margin: 0;
     padding: 0;
-    background-color: #2D2A2A;
-}
-
-@keyframes animated-gradient {
-    0% {
-        background-position: 0% 50%;
-    }
-    100% {
-        background-position: 100% 50%;
-    }
-}
-
-
-.big-box {
-    background-image: linear-gradient(to bottom right, #2D2A2A, #463e3e, #2D2A2A, #463e3e);
-    margin: 20px auto;
-    max-width: 1200px;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-}
-
-header {
+    background-color: var(--bg-dark);
     color: white;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    overflow-x: hidden;
+    line-height: 1.6;
+}
+
+/* Animated Mesh Gradient Background */
+body::before {
+    content: "";
+    position: fixed;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    background: 
+        radial-gradient(circle at 0% 0%, rgba(110, 238, 255, 0.15) 0%, transparent 50%),
+        radial-gradient(circle at 100% 100%, rgba(79, 163, 255, 0.1) 0%, transparent 50%);
+    z-index: -1;
+    animation: pulseGradient 10s ease-infinite alternate;
+}
+
+@keyframes pulseGradient {
+    0% { opacity: 0.5; }
+    100% { opacity: 1; }
+}
+
+/* The Bento Container */
+.big-box {
+    max-width: 1100px;
+    margin: 40px auto;
     padding: 20px;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: auto;
+    gap: 20px;
 }
 
-.header-content {
-    display: flex;
-    align-items: center;
-    width: 100%;
+/* Card Styling (Glassmorphism) */
+.card {
+    background: var(--glass-bg);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border: 1px solid var(--glass-border);
+    border-radius: 24px;
+    padding: 30px;
+    transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
 
-.header-text {
-    flex: 1;
-    padding-left: 20px;
+.card:hover {
+    border-color: var(--accent-cyan);
+    transform: translateY(-5px) scale(1.01);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
 }
 
+/* Layout Assignments */
+header.card { grid-column: span 3; display: flex; align-items: center; gap: 30px; }
+.bio.card { grid-column: span 2; }
+.work.card { grid-column: span 1; }
+.contact-zone { grid-column: span 3; text-align: center; padding: 40px 0; }
+
+/* Profile Image */
 .profile-image {
-    width: 150px;
-    height: 150px;
+    width: 120px;
+    height: 120px;
     border-radius: 50%;
-    overflow: hidden;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border: 3px solid var(--accent-cyan);
+    padding: 5px;
 }
 
 .profile-image img {
     width: 100%;
     height: 100%;
+    border-radius: 50%;
     object-fit: cover;
 }
 
+/* Text Gradients */
 .okkk {
-    background: linear-gradient(60deg,#6EEEFF,#30393a, #a9adad, #fafafa, #00e1ff, #aef6ff, #4f5152);
-    background-size: 300% 300%;
-    animation: animated-gradient 5s ease infinite;
-    background-clip: text;
+    background: linear-gradient(90deg, #6EEEFF, #4FA3FF, #6EEEFF);
+    background-size: 200% auto;
     -webkit-background-clip: text;
-    color: transparent;
-    text-decoration-line: underline;
-    font-family: Lexend;
-}
-
-.ok1 {
-    color: #FFF;
-    font-family: Lexend;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-}
-
-.o8 {
-    color: #6EEEFF;
-    font-family: Lexend;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-}
-
-.svg-icon {
-    display: inline-block;
-    margin-left: 10px; /* Adjust the spacing between SVG icons */
-    color: white;
-}
-
-.idk3 {
-    font-family: Lexend;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-    background: linear-gradient(60deg,#6EEEFF,#30393a, #a9adad, #fafafa, #00e1ff, #aef6ff, #4f5152);
-    background-size: 300% 300%;
-    animation: animated-gradient 5s ease infinite;
     background-clip: text;
-    -webkit-background-clip: text;
     color: transparent;
-    text-decoration-line: underline;
+    animation: shine 3s linear infinite;
+    font-weight: 800;
 }
 
-.box {
-    width: 290px;
-    height: 450px;
-    border-radius: 10px;
-    border: 1px solid transparent;
-    background: #2D2A2A;
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-    margin: 15px;
-    position: relative;
-    text-align: center; /* Center the content horizontally */
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+@keyframes shine {
+    to { background-position: 200% center; }
 }
 
-.circle {
-    width: 239px;
-    height: 239px;
-    border-radius: 239px;
-    border: 1px solid #6EEEFF;
-    background: url(./ok.png) center / contain no-repeat, lightgray;
-    position: absolute;
-    flex-shrink: 0;
-    top: 10px;
-    left: 50%;
-    transform: translateX(-50%); /* Center horizontally */
+/* Modern List */
+.iok ul {
+    list-style: none;
+    padding: 0;
 }
 
-.Iacos {
-    color: #FFF;
-    font-family: Lexend;
-    font-size: 43px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-    margin-bottom: 101px; /* Add some space between the circle and the text */
-    position: absolute;
-    bottom: 0; /* Position the text at the bottom of the box */
-    left: 50%; /* Center the text horizontally */
-    transform: translateX(-50%); /* Center horizontally */
+.iok li {
+    background: rgba(255, 255, 255, 0.05);
+    margin: 8px 0;
+    padding: 10px 15px;
+    border-radius: 12px;
+    font-size: 0.9rem;
+    border-left: 3px solid var(--accent-cyan);
 }
 
-.Iacoos {
-    color: #FFF;
-    font-family: Lexend;
-    font-size: 31px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-    margin-bottom: 3px; /* Add some space between the circle and the text */
-    position: absolute;
-    bottom: 0; /* Position the text at the bottom of the box */
-    left: 50%; /* Center the text horizontally */
-    transform: translateX(-50%); /* Center horizontally */
-}
-
-.iok {
-    color: #FFF;
-    font-family: Lexend;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-}
-
-.center-container {
-    text-align: center; /* Center the content horizontally */
-}
-
+/* The "Crazy" Button */
 .reach-me {
     display: inline-block;
-    padding: 6px 12px;
-    font-size: 14px;
-    font-family: 'Lexend', sans-serif;
+    padding: 15px 40px;
+    background: var(--accent-cyan);
+    color: #000;
+    border-radius: 100px;
+    font-weight: 700;
     text-decoration: none;
-    color: #333;
-    background-color: #4FA3FF;
-    border: 2px solid #4FA3FF;
-    border-radius: 4px;
-    transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: 0.3s;
+    box-shadow: 0 0 20px rgba(110, 238, 255, 0.3);
 }
 
 .reach-me:hover {
-    background-color: #1E293B;
-    color: #4FA3FF;
-    border-color: #1E293B;
+    transform: scale(1.1);
+    box-shadow: 0 0 40px rgba(110, 238, 255, 0.6);
 }
 
-
-
-.box::before {
-    content: '';
-    position: absolute;
-    top: -2px; /* Adjust to align with the actual border */
-    left: -2px; /* Adjust to align with the actual border */
-    width: calc(100% + 4px); /* Adjust for border expansion */
-    height: calc(100% + 4px); /* Adjust for border expansion */
-    border-radius: 10px;
-    border: 1px solid transparent;
-    animation: animated-border 5s ease infinite;
-}
-
-
-/* Keyframes for animated border colors */
-@keyframes animated-border {
-    0%, 100% {
-        border-color: #6EEEFF; /* Start and end with transparent color */
-    }
-    25% {
-        border-color: #ebf5f7; /* Change to the desired color */
-    }
-    50% {
-        border-color: #5a969c; /* Change to the desired color */
-    }
-    75% {
-        border-color: #7bb8b8; /* Change to the desired color */
-    }
-}
-
-/* Media query for smaller screens (phones) */
-@media (max-width: 767px) {
-    .rectangle-container {
-        display: block; /* Stack boxes vertically */
-    }
-
-    .box {
-        display: block; /* Reset the display for each box */
-        margin: 20px auto; /* Center align boxes horizontally */
-    }
+/* Responsive */
+@media (max-width: 850px) {
+    .big-box { grid-template-columns: 1fr; }
+    header.card, .bio.card, .work.card { grid-column: span 1; flex-direction: column; text-align: center; }
 }
