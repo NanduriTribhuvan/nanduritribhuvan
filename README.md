@@ -1,89 +1,90 @@
-<h1 align="center">👋 Hey there! I'm Nanduri Tribhuvan</h1>
-<h4 align="center">I'm a passionate Backend Developer who loves building, exploring, and learning. I enjoy helping others, contributing to open-source projects, and continuously leveling up my skills. I'm always up for meeting new people and trying out new tech stacks. I’ve been coding since 2020, and over the years, I've gained experience in languages like TypeScript, JavaScript, Python, Node.js, and more. I’m a fast learner with interests in AI/ML, ethical hacking, and pentesting.</h4>
+# 👋 Hey there! I'm Nanduri Tribhuvan (Fokin)
+
+> **Backend Developer & Systems Architect**  
+> Crafting scalable APIs, resilient microservices, and secure backend infrastructure.
+
+[![GitHub](https://img.shields.io/badge/GitHub-NanduriTribhuvan-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/NanduriTribhuvan)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/)
+[![Portfolio](https://img.shields.io/badge/Portfolio-6eeeff?style=for-the-badge&logo=firefoxbrowser&logoColor=black)](https://your-portfolio.com)
+[![Contact](https://img.shields.io/badge/Email-tribhuvan@skiff.com-red?style=for-the-badge&logo=gmail&logoColor=white)](mailto:tribhuvan@skiff.com)
 
 ---
 
-## ✍️ Key Highlights
+### 🚀 About Me
 
-- 🧠 Self-taught Full Stack Developer  
-- 💻 Started coding in **2020**  
-- 🛠️ Strong grip on **JavaScript**, **TypeScript**, and backend systems  
+I’m a self-taught **Full-Stack & Backend Engineer** who started coding in 2020. I specialize in building performant backends, data-driven microservices, and clean distributed architectures. Beyond production systems, I actively explore **offensive security, malware mechanics, and applied AI/ML workflows**.
 
----
-
-## 🛠️ Tech Stack & Tools
-
-### 💻 Programming Languages
-
-<p align="left">
-  <img alt="JavaScript" src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=white">
-  <img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white">
-  <img alt="Python" src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white">
-  <img alt="Rust" src="https://img.shields.io/badge/Rust-black?style=for-the-badge&logo=rust&logoColor=orange">
-</p>
-
-### 🌐 Frontend Development
-
-<p align="left">
-  <img alt="React" src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB">
-  <img alt="Next.js" src="https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white">
-</p>
-
-### ☁️ Databases & Hosting
-
-<p align="left">
-  <img alt="MongoDB" src="https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white">
-  <img alt="PostgreSQL" src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white">
-  <img alt="SQLite" src="https://img.shields.io/badge/SQLite-07405E?style=for-the-badge&logo=sqlite&logoColor=white">
-  <img alt="Heroku" src="https://img.shields.io/badge/Heroku-430098?style=for-the-badge&logo=heroku&logoColor=white">
-</p>
-
-### 🧱 Frameworks
-
-<p align="left">
-  <img alt="Node.js" src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white">
-  <img alt="Express.js" src="https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white">
-  <img alt="NPM" src="https://img.shields.io/badge/npm-CB3837?style=for-the-badge&logo=npm&logoColor=white">
-</p>
-
-### ⚙️ Tools & Platforms
-
-<p align="left">
-  <img alt="Git" src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white">
-  <img alt="Linux" src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black">
-  <img alt="Ubuntu" src="https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white">
-  <img alt="VS Code" src="https://img.shields.io/badge/VS_Code-0078D4?style=for-the-badge&logo=visualstudiocode&logoColor=white">
-  <img alt="Stack Overflow" src="https://img.shields.io/badge/Stack_Overflow-FE7A16?style=for-the-badge&logo=stack-overflow&logoColor=white">
-  <img alt="AWS" src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white">
-  <img alt="Adobe" src="https://img.shields.io/badge/Adobe-FF0000?style=for-the-badge&logo=adobe&logoColor=white">
-</p>
+- 🔭 **Current Focus:** Scalable Node.js/TypeScript microservices & secure systems architecture.
+- ⚡ **Specialties:** Database design, REST/GraphQL APIs, authentication protocols, CI/CD pipelines.
+- 🤝 **Collaborations:** Open to high-impact open-source contributions, backend infrastructure, and tooling projects.
 
 ---
 
-## 📬 Connect with Me
+### ✍️ Key Highlights
 
-<p align="left">
-  <a href="mailto:contact.nanduri@gmail.com">
-    <img alt="Email" src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
-  </a>
-  &emsp;
-  <a href="https://nanduritribhuvan.github.io/nanduritribhuvan/" target="_blank">
-    <img alt="Portfolio" src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white" />
-  </a>
-  &emsp;
-  <a href="https://github.com/nanduritribhuvan" target="_blank">
-    <img alt="GitHub" src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />
-  </a>
-  &emsp;
-  <a href="https://www.linkedin.com/in/tribhuvan-nanduri-7aa82231b" target="_blank">
-    <img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
-  </a>
-  &emsp;
-  <a href="https://t.me/NanduriTribhuvan" target="_blank">
-    <img alt="Telegram" src="https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white" />
-  </a>
-  &emsp;
-  <a href="https://discord.com/users/realyala" target="_blank">
-    <img alt="Discord" src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" />
-  </a>
+- 🧠 **Self-Taught Full-Stack Developer** with a systems-first backend focus.
+- 💻 **Started coding in 2020** designing production-grade applications.
+- 🛡️ **Security-Oriented Mindset** with knowledge in penetration testing and offensive security patterns.
+- ⚙️ **Automation Enthusiast** orchestrating complex API pipelines and background worker queues.
+
+---
+
+### 🛠️ Tech Stack & Tools
+
+#### 💻 Programming & Scripting Languages
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
+![Bash/Shell](https://img.shields.io/badge/Shell_Script-121011?style=flat-square&logo=gnu-bash&logoColor=white)
+
+#### 🧱 Backend & Frameworks
+![Express.js](https://img.shields.io/badge/Express.js-000000?style=flat-square&logo=express&logoColor=white)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+![NestJS](https://img.shields.io/badge/NestJS-E0234E?style=flat-square&logo=nestjs&logoColor=white)
+
+#### 🌐 Frontend Development
+![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white)
+![Framer Motion](https://img.shields.io/badge/Framer_Motion-black?style=flat-square&logo=framer&logoColor=blue)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
+
+#### ☁️ Databases, ORMs & Caching
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
+![Prisma](https://img.shields.io/badge/Prisma-2D3748?style=flat-square&logo=prisma&logoColor=white)
+
+#### ⚙️ DevOps, Platforms & Tools
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=github-actions&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazon-aws&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
+![Postman](https://img.shields.io/badge/Postman-FF6C37?style=flat-square&logo=postman&logoColor=white)
+![n8n](https://img.shields.io/badge/n8n-EA4B71?style=flat-square&logo=n8n&logoColor=white)
+
+---
+
+### 📌 Featured Work & Projects
+
+| Project / Organization | Focus Area | Key Tech |
+| :--- | :--- | :--- |
+| **Gradvaly / TallyValy** *(Sarvaya)* | Backend system architecture & automated evaluation engine | `Node.js` `TypeScript` `PostgreSQL` |
+| **Prembroke** | Modular utility pipeline & automated developer toolchain | `TypeScript` `APIs` `Automation` |
+| **Authentication Infrastructure** | Role-based token access & multi-tenant auth services | `Express` `JWT` `MongoDB` |
+
+---
+
+### 📊 GitHub Activity & Metrics
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=NanduriTribhuvan&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="GitHub Stats" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=NanduriTribhuvan&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=NanduriTribhuvan&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
 </p>
