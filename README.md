@@ -80,9 +80,11 @@ I’m a self-taught **Full-Stack & Backend Engineer** who started coding in 2020
 
 ### 📊 GitHub Activity & Metrics
 
+### 📊 GitHub Activity & Metrics
+
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=NanduriTribhuvan&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="GitHub Stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=NanduriTribhuvan&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" />
+  <img src="https://github-readme-stats-fast.vercel.app/api?username=NanduriTribhuvan&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="GitHub Stats" />
+  <img src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=NanduriTribhuvan&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" />
 </p>
 
 <p align="center">
